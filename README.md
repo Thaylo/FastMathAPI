@@ -38,24 +38,18 @@ pip install -r requirements.txt
 
 ## Running the API
 
-### Using Flask
+### Using the deployment script (requires Docker)
+The script below will create the docker image and run it on localhost:8000.
 ```
-export FLASK_APP=app.py
-export FLASK_ENV=development
-flask run --host=0.0.0.0 --port=8000
-```
-
-### Using Docker
-1. Build the Docker image:
-```
-docker build -t math-api .
+./install_dependencies.sh
 ```
 
-2. Run the Docker container:
+## Testing the API
+Open a new terminal interface and run the command:
 ```
-docker run -d --name math-api-container -p 8000:8000 math-api
+python client.py
 ```
-
+Follow instructions.
 
 ## Usage
 
