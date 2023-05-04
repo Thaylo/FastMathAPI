@@ -14,7 +14,7 @@ A simple REST API to solve mathematical equations using Python, Flask, and SymPy
 - Flask 2.1.1
 - SymPy 1.9
 - cachetools 4.2.4
-- Docker (optional)
+- Docker (not a hard requirement)
 
 ## Installation
 
